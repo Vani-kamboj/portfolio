@@ -59,24 +59,24 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/vikaaas-99" target="_blank">
+          <a href="https://github.com/Vani-kamboj" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/vikaas-sharma" target="_blank">
+          <a href="https://www.linkedin.com/in/vani-kamboj-629174208/" target="_blank" rel="noreferrer">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="mailto:vikassharma6888@gmail.com">
+          <a href="mailto: vaanikamboj12@gmail.com">
             <MdEmail />
           </a>
         </span>
       </div>
       <a
         className="resume-button"
-        href="https://drive.google.com/file/d/1xnl0Hx1XTZlsNDGo_mojo7QiohJDIzFB/view?usp=sharing"
+        href="https://github.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/blob/main/VaniKamboj_Data_Analyst.pdf?raw=true"
         target="_blank"
         rel="noreferrer"
       >

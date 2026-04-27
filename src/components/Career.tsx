@@ -15,44 +15,32 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Engineer</h4>
-                <h5>Privue</h5>
+                <h4>Senior Data Analyst</h4>
+                <h5>Privue.AI</h5>
               </div>
-              <h3>2025</h3>
+              <h3>Feb 2024 - Present</h3>
             </div>
             <p>
-              Building cloud-native AI data platforms for enterprise clients using
-              FastAPI, React, and AWS. Delivered Docvue and RAG-based financial
-              document intelligence workflows with LangChain, LangGraph, Temporal,
-              and serverless orchestration.
+            Owned the full data lifecycle — from building automated ETL pipelines in Microsoft Fabric to delivering enterprise Power BI dashboards that drove real-time decisions.
+            Architected Lakehouse and Warehouse solutions using Dataflows, Pipelines, and SQL, while maintaining 99%+ accuracy across every stage of ingestion, transformation,
+             and reporting. Enforced data governance through Row-Level Security, worked directly with clients to turn business requirements into scalable analytical solutions, 
+             and kept documentation tight enough that nothing got lost in handoffs.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sr. Software Developer</h4>
-                <h5>Jina Code Systems</h5>
+                <h4>Senior Data Analyst</h4>
+                <h5>Dream IT CS Pvt. Ltd</h5>
               </div>
-              <h3>2024</h3>
+              <h3>Jul 2022 - Feb 2024</h3>
             </div>
             <p>
-              Developed and optimized import-export systems across web and mobile,
-              shipped recommendation and bidding engines, and automated workflows
-              with Celery, WhatsApp, and Zapier while deploying on AWS with CI/CD.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Backend Developer</h4>
-                <h5>Helppr.ai</h5>
-              </div>
-              <h3>2022</h3>
-            </div>
-            <p>
-              Built a self-study platform used by 12,000+ learners with quiz
-              generation, notification systems, and high-availability deployment.
-              Improved API performance by 30% and scaled backend operations on AWS.
+            Designed interactive Power BI dashboards powered by advanced DAX, building complex measures, 
+            calculated columns, and KPI logic that enabled approximately 30% faster decision-making. 
+            Leveraged SQL to query, validate, and ensure accuracy across every report,
+             while transforming raw datasets into structured, analysis-ready tables. 
+             Introduced Microsoft Fabric to streamline data pipelines and lay the groundwork for scalable, automated analytics.
             </p>
           </div>
         </div>

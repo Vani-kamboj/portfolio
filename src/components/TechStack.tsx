@@ -27,41 +27,100 @@ import {
 } from "react-icons/si";
 
 const techRow1 = [
-  { name: "Python", Icon: SiPython, color: "#3776AB" },
-  { name: "Django", Icon: SiDjango, color: "#092E20" },
-  { name: "FastAPI", Icon: SiFastapi, color: "#009688" },
-  { name: "Celery", Icon: SiCelery, color: "#37814A" },
-  { name: "Redis", Icon: SiRedis, color: "#DC382D" },
-  { name: "Temporal", Icon: SiTemporal, color: "#FFFFFF" },
-  { name: "Docker", Icon: SiDocker, color: "#2496ED" },
-  { name: "Nginx", Icon: SiNginx, color: "#009639" },
-  { name: "Git", Icon: SiGit, color: "#F05032" },
-  { name: "Pandas", Icon: SiPandas, color: "#150458" },
+  { 
+    name: "Microsoft Fabric", 
+    Icon: () => <img src="https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/fabric.png" width="24" height="24" />, 
+    color: "" 
+  },
+  { 
+    name: "Microsoft Power BI", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=QMTbsd0FVhHS&format=png&color=F2C811" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Power Query", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=QMTbsd0FVhHS&format=png&color=F2C811" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Microsoft SQL Server", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Report Builder", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=cM5Dj9gp1RPC&format=png&color=000000" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Excel", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" width="28" height="28" />, 
+    color: "" 
+  },
 ];
 
 const techRow2 = [
-  { name: "React", Icon: SiReact, color: "#61DAFB" },
-  { name: "Next.js", Icon: SiNextdotjs, color: "#FFFFFF" },
-  { name: "TypeScript", Icon: SiTypescript, color: "#3178C6" },
-  { name: "JavaScript", Icon: SiJavascript, color: "#F7DF1E" },
-  { name: "Flutter", Icon: SiFlutter, color: "#027DFD" },
+  { 
+    name: "Data Analysis", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=QDr5SymT6tib&format=png&color=000000" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Data Automation", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=64br7u9FDpMC&format=png&color=000000" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Data Modeling ", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=Hq7DApcF2d4C&format=png&color=FA5252" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Data Pipeline", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=93OJxXeBY896&format=png&color=12B886" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Data Integration", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=WEc3h8mgM1Kt&format=png&color=FFFFFF" width="30" height="30" />, 
+    color: "" 
+  },
+  { 
+    name: "Data Visualization", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=AfQG1GqyV06c&format=png&color=000000" width="28" height="28" />, 
+    color: "" 
+  },
 ];
 
 const techRow3 = [
-  { name: "PostgreSQL", Icon: SiPostgresql, color: "#4169E1" },
-  { name: "MySQL", Icon: SiMysql, color: "#4479A1" },
-  { name: "React", Icon: SiReact, color: "#61DAFB" },
-  { name: "MongoDB", Icon: SiMongodb, color: "#47A248" },
-  { name: "Firebase", Icon: SiFirebase, color: "#FFCA28" },
-  { name: "GCP", Icon: SiGooglecloud, color: "#4285F4" },
-  { name: "Vercel", Icon: SiVercel, color: "#FFFFFF" },
+  { 
+    name: "Data Management", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=6t7UNc03Q7lh&format=png&color=22C3E6" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Data Manipulation", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=48391&format=png&color=EBEBEB" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Data Ingestion", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=0Ni5Auk1wGUQ&format=png&color=FFFFFF" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Requirements Gathering", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=8186&format=png&color=FAB005" width="28" height="28" />, 
+    color: "" 
+  },
+  { 
+    name: "Extract, Transform and Load (ETL)", 
+    Icon: () => <img src="https://img.icons8.com/?size=100&id=X10esLaMcBb3&format=png&color=7950F2" width="28" height="28" />, 
+    color: "" 
+  },
+
 ];
 
-const techRow4 = [
-  { name: "LangChain", Icon: SiLangchain, color: "#1C3C3C" },
-  { name: "OpenAI", Icon: SiOpenai, color: "#10A37F" },
-  { name: "Gemini", Icon: SiGooglegemini, color: "#8E75FF" },
-];
 
 function TechItem({
   name,
@@ -69,7 +128,7 @@ function TechItem({
   color,
 }: {
   name: string;
-  Icon: typeof SiReact;
+  Icon: any;
   color: string;
 }) {
   return (
@@ -81,7 +140,7 @@ function TechItem({
 }
 
 const TechStack = () => {
-  const rows = [techRow1, techRow2, techRow3, techRow4];
+  const rows = [techRow1, techRow2, techRow3];
 
   return (
     <section className="techstack" aria-labelledby="techstack-heading">

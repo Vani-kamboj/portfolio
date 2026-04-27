@@ -12,6 +12,7 @@ type Project = {
   image: string;
   video?: string;
   link?: string;
+  description: string;
   mediaFit?: MediaFit;
   mediaMaxWidth?: number | string;
   mediaMaxHeight?: number | string;
@@ -19,48 +20,49 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "EXIM {Listed on NSE}",
-    category: "Import-Export Management",
-    tools: "Python, Django, LangGraph, React, Pandas, Celery, AWS",
-    image:
-      "https://raw.githubusercontent.com/vikaaas-99/e-commerce-logos/main/exim-platform.png",
-    mediaFit: "contain",
-  },
-  {
-    title: "Docvue",
-    category: "AI Financial Document Parsing",
+    title: "MCA, GSTIN & Taxpayers Analysis",
+    category: "Enterprise Analytics Platform",
     tools:
-      "FastAPI, LangChain, Gemini Models, AWS Step Functions, Temporal, Lambda, ECS, DynamoDB, S3",
+      "Power BI, Microsoft Fabric, SQL, Data Modeling, ETL, Lakehouse, Warehouse",
+    description: 
+      "Designed end-to-end ETL pipelines in Microsoft Fabric to ingest, clean, and model large-scale government datasets, surfaced through interactive Power BI dashboards.", 
     image:
-      "https://raw.githubusercontent.com/vikaaas-99/e-commerce-logos/main/exim-platform.png",
-    video:
-      "https://raw.githubusercontent.com/vikaaas-99/e-commerce-logos/main/docvue.mov",
+      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/GOI.png",
     mediaFit: "contain",
   },
   {
-    title: "Helppr.ai",
-    category: "EdTech Application",
-    tools: "Python, Django, Flutter, LangChain, AWS/GCP, Nginx",
+    title: "Dabur Sales Analysis",
+    category: "Sales Intelligence Dashboard",
+    tools:
+      "Power BI, DAX, KPI Design, Revenue Analysis, Product Performance Tracking",
+    description: 
+      "Built an interactive Power BI dashboard to monitor Dabur's revenue trends, product performance, and profitability — with DAX-driven KPIs enabling 30% faster business decisions.", 
     image:
-      "https://raw.githubusercontent.com/vikaaas-99/e-commerce-logos/main/helppr.png",
+      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/dabur.png",
     mediaFit: "contain",
   },
   {
-    title: "Health Lens",
-    category: "Healthcare AI Platform",
-    tools: "Python, DRF, LangChain, LLMs, Pytest, WhatsApp/Email Notifications",
+    title: "Temperature Monitoring",
+    category: "Real-time Monitoring & Alerts",
+    tools:
+      "SQL, Python, Power BI, Microsoft Fabric, Lakehouse, Pipelines, Data Activator",
+    description: 
+      "Pulled raw temperature data from an API using Python Notebook, stored it in a Fabric Lakehouse, and moved it into the Warehouse through automated pipelines, where SQL tables were already structured and ready. Final insights surfaced through real-time Power BI dashboards with automated email alerts via Data Activator.", 
     image:
-      "https://raw.githubusercontent.com/vikaaas-99/e-commerce-logos/main/health-lens-2.png",
+      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/Temperature.png",
     mediaFit: "contain",
   },
   {
-    title: "E-commerce Platform",
-    category: "E-commerce Platform",
-    tools: "Python, FastAPI, Pytest, Vercel, Razorpay Integration, TypeScript, React",
+    title: "Insurance Analysis",
+    category: "Reporting & KPI Analytics",
+    tools:
+      "Power BI, DAX Studio, Report Builder, Microsoft Fabric, SQL, Python, Power Query",
+      description: 
+      "Started as a standalone Power BI solution with Salesforce as the data source and later re-engineered on Microsoft Fabric. Built end-to-end pipelines moving data from Lakehouse into the Warehouse, structured SQL tables, and delivered a fully automated insurance analytics dashboard.", 
     image:
-      "https://raw.githubusercontent.com/vikaaas-99/e-commerce-logos/main/e-commerce.png",
+      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/Insurance.png",
     mediaFit: "contain",
-  },
+  }
 ];
 
 const Work = () => {
@@ -321,6 +323,11 @@ const Work = () => {
                             <span className="tools-label">Tools & Features</span>
                             <p>{project.tools}</p>
                           </div>
+                          {project.description && (
+    <div className="carousel-description">
+      <p>{project.description}</p>
+    </div>
+  )}
                         </div>
                       </div>
                       <div className="carousel-image-wrapper">

@@ -87,22 +87,24 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI APPLICATIONS</h3>
-              <h4>Document Intelligence & Conversational Systems</h4>
+              <h3>BUSINESS INTELLIGENCE</h3>
+              <h4>Dashboarding, KPI Tracking & Decision Support</h4>
               <p>
-                Building production AI systems for financial and enterprise workflows,
-                including document parsing, structured extraction, risk scoring, and
-                RAG-powered chat experiences.
+                Building interactive dashboards and analytical reports that convert
+                raw business data into clear, actionable insights for leadership and
+                operations teams.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LangChain/LangGraph</div>
-                <div className="what-tags">LLMs</div>
-                <div className="what-tags">RAG</div>
-                <div className="what-tags">Gemini</div>
-                <div className="what-tags">OpenAI</div>
-                <div className="what-tags">Pinecone</div>
-                <div className="what-tags">Temporal</div>
+                <div className="what-tags">Power BI</div>
+                <div className="what-tags">DAX</div>
+                <div className="what-tags">Power Query</div>
+                <div className="what-tags">Excel</div>
+                <div className="what-tags">KPI Reporting</div>
+                <div className="what-tags">Data Visualization</div>
+                <div className="what-tags">Incremental Load</div>
+                <div className="what-tags">Row-Level Security</div>
+                <div className="what-tags">Paginated Report</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,23 +128,25 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND SYSTEMS</h3>
-              <h4>Cloud-Native APIs & Orchestration</h4>
+              <h3>DATA ENGINEERING & ETL</h3>
+              <h4>Data Modeling, Pipelines & Quality Assurance</h4>
               <p>
-                Designing scalable backend platforms with Python and FastAPI, robust
-                async processing, observability, and deployment automation across AWS
-                services for high-volume, enterprise-grade systems.
+                Designing end-to-end data workflows from extraction and cleaning to
+                transformation and modeling, with strong governance and performance
+                optimization across SQL and Microsoft Fabric.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Python</div>
-                <div className="what-tags">FastAPI</div>
-                <div className="what-tags">Django</div>
-                <div className="what-tags">Celery</div>
-                <div className="what-tags">Redis</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">AWS</div>
-                <div className="what-tags">CI/CD</div>
+                <div className="what-tags">Warehouse</div>
+                <div className="what-tags">Data Activator</div>
+                <div className="what-tags">SQL Server</div>
+                <div className="what-tags">Microsoft Fabric</div>
+                <div className="what-tags">Lakehouse</div>
+                <div className="what-tags">Dataflows</div>
+                <div className="what-tags">Data Pipelines</div>
+                <div className="what-tags">ETL</div>
+                <div className="what-tags">Data Modelling</div>
+                <div className="what-tags">Data Automation</div>
               </div>
               <div className="what-arrow"></div>
             </div>

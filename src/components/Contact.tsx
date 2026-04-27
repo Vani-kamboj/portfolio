@@ -10,21 +10,27 @@ const Contact = () => {
             <div className="contact-box">
               <h4>Email</h4>
               <p>
-                <a href="mailto:vikassharma6888@gmail.com" data-cursor="disable">
-                  vikassharma6888@gmail.com
+                <a href="vaanikamboj12@gmail.com" data-cursor="disable">
+                  vaanikamboj12@gmail.com
+                </a>
+              </p>
+              <h4>Phone</h4>
+              <p>
+                <a href="tel:+91-6398162450" data-cursor="disable">
+                  +91 63981 62450
                 </a>
               </p>
               <h4>Education</h4>
               <p>
-                M.Sc. in Machine Learning & AI
+                Post-Graduation Program in Data Science
                 <br />
-                B.Tech in Computer Science Engineering
+                Bachelor of Commerce (Accounting & Statistics)
               </p>
             </div>
             <div className="contact-box">
               <h4>Social</h4>
               <a
-                href="https://github.com/vikaaas-99"
+                href="https://github.com/Vani-kamboj"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
@@ -33,7 +39,7 @@ const Contact = () => {
                 Github <MdArrowOutward />
               </a>
               <a
-                href="https://www.linkedin.com/in/vikas-sharma-6888/"
+                href="https://www.linkedin.com/in/vani-kamboj-629174208/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
@@ -44,7 +50,7 @@ const Contact = () => {
             </div>
             <div className="contact-box">
               <h2>
-                Re-Designed and Re-Developed <br /> by <span>Vikas Sharma</span>
+              Built with passion <br /> by <span>Vani Kamboj</span>
               </h2>
               <h5>
                 <MdCopyright /> 2026

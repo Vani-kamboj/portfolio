@@ -3,7 +3,7 @@ import "./styles/Loading.css";
 import { useLoading } from "../context/LoadingProvider";
 
 import Marquee from "react-fast-marquee";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 
 const Loading = ({ percent }: { percent: number }) => {
   const { setIsLoading } = useLoading();
@@ -63,8 +63,8 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            <span>Software Engineer</span>
-            <span>Software Engineer</span>
+            <span>Senior Data Analyst</span>
+            <span>Senior Data Analyst</span>
           </Marquee>
         </div>
         <div

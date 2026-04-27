@@ -6,10 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Software Engineer focused on AI-driven backend systems and scalable web
-          products. I build document intelligence and RAG applications using FastAPI,
-          LangChain/LangGraph, and cloud-native AWS architectures, while shipping
-          reliable frontend experiences with React.
+          I don't just build dashboards, I build the entire data system behind them.
+          As a Senior Data Analyst with 3.8 years of experience, I work across the full 
+          data stack — architecting pipelines in Microsoft Fabric, writing precise queries in SQL, modeling clean and reliable 
+          data structures, and surfacing everything through interactive Power BI dashboards built with advanced DAX and Power Query.
+
+          From raw,messy data to a boardroom-ready report — I own every step in between.
         </p>
       </div>
     </div>
