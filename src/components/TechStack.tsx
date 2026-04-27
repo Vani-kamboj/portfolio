@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 const techRow1 = [
   { 
     name: "Microsoft Fabric", 
