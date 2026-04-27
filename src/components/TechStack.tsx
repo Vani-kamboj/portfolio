@@ -1,31 +1,3 @@
-import Marquee from "react-fast-marquee";
-import {
-  SiReact,
-  SiTypescript,
-  SiJavascript,
-  SiMongodb,
-  SiMysql,
-  SiNextdotjs,
-  SiVercel,
-  SiGit,
-  SiDocker,
-  SiPostgresql,
-  SiPython,
-  SiFastapi,
-  SiLangchain,
-  SiTemporal,
-  SiDjango,
-  SiFlutter,
-  SiFirebase,
-  SiNginx,
-  SiCelery,
-  SiRedis,
-  SiGooglecloud,
-  SiOpenai,
-  SiGooglegemini,
-  SiPandas,
-} from "react-icons/si";
-
 const techRow1 = [
   { 
     name: "Microsoft Fabric", 
