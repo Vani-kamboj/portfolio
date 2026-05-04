@@ -21,10 +21,10 @@ const Career = () => {
               <h3>Feb 2024 - Present</h3>
             </div>
             <p>
-            Owned the full data lifecycle — from building automated ETL pipelines in Microsoft Fabric to delivering enterprise Power BI dashboards that drove real-time decisions.
+            Owned the full data lifecycle- from building automated ETL pipelines in Microsoft Fabric to delivering enterprise Power BI dashboards that drove real-time decisions.
             Architected Lakehouse and Warehouse solutions using Dataflows, Pipelines, and SQL, while maintaining 99%+ accuracy across every stage of ingestion, transformation,
-             and reporting. Enforced data governance through Row-Level Security, worked directly with clients to turn business requirements into scalable analytical solutions, 
-             and kept documentation tight enough that nothing got lost in handoffs.
+            and reporting. Enforced data governance through Row-Level Security, worked directly with clients to turn business requirements into scalable analytical solutions, 
+            and kept documentation tight enough that nothing got lost in handoffs.
             </p>
           </div>
           <div className="career-info-box">

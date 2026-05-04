@@ -38,7 +38,7 @@ const projects: Project[] = [
     description: 
       "Built an interactive Power BI dashboard to monitor Dabur's revenue trends, product performance, and profitability — with DAX-driven KPIs enabling 30% faster business decisions.", 
     image:
-      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/dabur.png",
+      "https://raw.githubusercontent.com/Vani-kamboj/portfolio/main/Dabur%20(2).png",
     mediaFit: "contain",
   },
   {
@@ -49,8 +49,9 @@ const projects: Project[] = [
     description: 
       "Pulled raw temperature data from an API using Python Notebook, stored it in a Fabric Lakehouse, and moved it into the Warehouse through automated pipelines, where SQL tables were already structured and ready. Final insights surfaced through real-time Power BI dashboards with automated email alerts via Data Activator.", 
     image:
-      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/Temperature.png",
+      "https://raw.githubusercontent.com/Vani-kamboj/Microsoft-Fabric-Temperature-Analytics/main/Temperature_MS_Fabric.png",
     mediaFit: "contain",
+    link: "https://github.com/Vani-kamboj/Microsoft-Fabric-Temperature-Analytics",
   },
   {
     title: "Insurance Analysis",
@@ -60,8 +61,9 @@ const projects: Project[] = [
       description: 
       "Started as a standalone Power BI solution with Salesforce as the data source and later re-engineered on Microsoft Fabric. Built end-to-end pipelines moving data from Lakehouse into the Warehouse, structured SQL tables, and delivered a fully automated insurance analytics dashboard.", 
     image:
-      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/Insurance.png",
+      "https://raw.githubusercontent.com/Vani-kamboj/Microsoft-Fabric-Insurance-Project/main/Insurance.png",
     mediaFit: "contain",
+    link: "https://github.com/Vani-kamboj/Microsoft-Fabric-Insurance-Project",
   }
 ];
 
@@ -186,6 +188,9 @@ const Work = () => {
   }, [isTransitionEnabled]);
 
   const handlePointerDown = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
+    const target = event.target as HTMLElement | null;
+    // Don't start swipe capture when clicking interactive elements.
+    if (target?.closest("a, button")) return;
     if (event.pointerType === "mouse" && event.button !== 0) return;
     swipeStartXRef.current = event.clientX;
     swipeDeltaXRef.current = 0;
@@ -327,6 +332,17 @@ const Work = () => {
     <div className="carousel-description">
       <p>{project.description}</p>
     </div>
+  )} 
+  {project.link && (
+    <a 
+      href={project.link} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="carousel-link"
+      onClick={(e) => e.stopPropagation()}
+    >
+      View on GitHub
+    </a>
   )}
                         </div>
                       </div>
