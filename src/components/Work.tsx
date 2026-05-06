@@ -27,7 +27,7 @@ const projects: Project[] = [
     description: 
       "Designed end-to-end ETL pipelines in Microsoft Fabric to ingest, clean, and model large-scale government datasets, surfaced through interactive Power BI dashboards.", 
     image:
-      "https://raw.githubusercontent.com/Vani-kamboj/Vani-Kamboj.portfolio.github.io/main/GOI.png",
+      "https://raw.githubusercontent.com/Vani-kamboj/portfolio/main/MCA%20Image.png",
     mediaFit: "contain",
   },
   {
